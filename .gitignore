@@ -1,0 +1,77 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.pyenv/
+.python-version
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Type checkers / linters
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Hugging Face / ML artifacts
+.hf/
+.cache/
+transformers_cache/
+torch_cache/
+huggingface_hub/
+checkpoints/
+runs/
+outputs/
+*.ckpt
+*.pt
+*.pth
+*.bin
+
+# Data and datasets
+data/
+dataset/
+*.csv
+*.jsonl
+
+# Environment files / secrets
+.env
+.env.*
+secrets.json
+*.pem
+*.key
+credentials
+
+# Misc
+local_settings.py
+
